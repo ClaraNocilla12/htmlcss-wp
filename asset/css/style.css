@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.width{
+    width:70vw;
+}
+
+.margin{
+    margin: auto;
+}
+
+header img{
+    border-right: 1px solid gray;
+    padding: 0 20px 0 0;
+    width: 20%;
+
+}
+
+/* nav{
+    padding:20px 0;
+} */
+
+li{
+    display: inline-block;
+    padding:20px 0;
+}
+
+a{
+    text-decoration: none;
+    padding:0 10px 0 0;
+    color: grey;
+}
+
+main{
+    height: 90vh;
+}
+
+
+
+.main-bg{
+    background-image: url(./../img/banner.jpg);
+    height: 60%; 
+    background-size: cover;
+    background-position: 50% 50%;
+    position: relative;
+    
+    
+}
+
+.main-bg section{
+    position: absolute;
+    left:5%;
+    bottom:15%;
+    color: white;
+}
+
+/* .green-box{
+    background-color: greenyellow;
+    width:70vw;
+    height: 50vh;
+    margin: 0 auto 20px;
+}
+
+.container-box{
+    background-color: blue;
+    width:70vw;
+    height: 75vh;
+    margin: auto;
+}
+
+.violet-box{
+    background-color: blueviolet;
+    width:70vw;
+    height: 5vh;
+    margin: 10px auto;
+}
+
+.blue-box1{
+    height: 20%;
+    background-color: lightblue; 
+    
+}
+
+.blue-box2{
+    width:15%;
+    height: 75%;
+    background-color: lightblue;
+    float: left;
+    margin: 1% 1% 0 0;
+}
+
+.blue-box4{
+    width:15%;
+    height: 75%;
+    background-color: lightblue;
+    float: right;
+    margin: 1% 0 0 1%;
+}
+
+.blue-box3{
+    background-color: lightblue;
+    height: 75%;
+    width: 68%;
+    margin: 1% auto;
+    float: left;
+}
+
+.clearfix::after{
+    content:'';
+    display: table;
+    clear:both;
+} */
+
