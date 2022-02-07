@@ -21,9 +21,7 @@ header img{
 
 }
 
-/* nav{
-    padding:20px 0;
-} */
+
 
 li{
     display: inline-block;
@@ -33,6 +31,11 @@ li{
 a{
     text-decoration: none;
     padding:0 10px 0 0;
+    
+}
+
+.gray,
+a{
     color: grey;
 }
 
@@ -40,16 +43,27 @@ main{
     height: 90vh;
 }
 
+.overlay{
+    background-color: rgba(0, 0, 0, 0.164);
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
 
+}
 
 .main-bg{
-    background-image: url(./../img/banner.jpg);
+    
     height: 60%; 
+    position: relative;
+}
+
+.bg-img{
+    background-image: url(./../img/banner.jpg);
     background-size: cover;
     background-position: 50% 50%;
-    position: relative;
-    
-    
+    height: 100%;
 }
 
 .main-bg section{
@@ -59,39 +73,41 @@ main{
     color: white;
 }
 
-/* .green-box{
-    background-color: greenyellow;
-    width:70vw;
-    height: 50vh;
-    margin: 0 auto 20px;
-}
 
 .container-box{
-    background-color: blue;
+    
     width:70vw;
     height: 75vh;
-    margin: auto;
-}
+   
+    
+} 
 
-.violet-box{
+/* .violet-box{
     background-color: blueviolet;
     width:70vw;
     height: 5vh;
     margin: 10px auto;
-}
+}*/
 
-.blue-box1{
-    height: 20%;
-    background-color: lightblue; 
+.title{
+    padding:20px 0;
     
 }
 
-.blue-box2{
+.l-section{
+    background-image: url(./../img/img-1.jpg);
     width:15%;
     height: 75%;
     background-color: lightblue;
     float: left;
     margin: 1% 1% 0 0;
+}
+
+.l-section:first-child{
+    
+    width:15%;
+    height: 15%;
+    
 }
 
 .blue-box4{
@@ -114,5 +130,5 @@ main{
     content:'';
     display: table;
     clear:both;
-} */
-
+} 
+ 
